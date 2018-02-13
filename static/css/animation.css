@@ -1,0 +1,34 @@
+/*进场动画*/
+body.animate{
+    background: linear-gradient(to right, rgba(87,106,156,0.3) , rgba(87,106,156,1));
+}
+section.animate{
+    top: 0;
+    opacity: 1;
+}
+
+/*生成密码后-密码显示区域*/
+section.animate>div.animate:nth-child(1){
+    background-color: rgba(79,92,99,0.3);
+    background-image: none;
+}
+
+/*生成密码后-复制密码按钮*/
+section.animate>div.animate:nth-child(3){
+    display: block;
+}
+
+/*生成密码后-分割线和可选项*/
+section.animate>div.animate:nth-child(4){
+    top: 380px;
+}
+section.animate>div.animate:nth-child(5){
+    bottom: 4px;
+}
+/*可选项选中状态样式*/
+#length_re, #has_lowercase_re, #has_capital_re, #has_digit_re, #has_symbol_re{
+    background-color: rgba(79,92,99,1);
+}
+#length_re>span, #has_lowercase_re>span, #has_capital_re>span, #has_digit_re>span, #has_symbol_re>span{
+    color: rgba(255, 255, 255, 1);
+}

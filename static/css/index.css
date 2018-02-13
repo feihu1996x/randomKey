@@ -1,0 +1,172 @@
+body{
+    background: rgba(87,106,156,1);
+    transition: all .8s;
+    overflow: hidden;
+}
+.main{
+    position: absolute;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    top: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 10px;
+    transition: all .8s;
+    opacity: 0.3;
+}
+/*密码显示区域*/
+.display{
+    width:100%;
+    height:200px;
+    background-color: rgba(79,92,99,0.3);
+    background-image: url("/static/image/default_display.jpg");
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .8s;
+    color:rgba(79,92,99,1);
+    font-size: 30px;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-indent: 2em;
+}
+/*密码生成按钮*/
+.generate{
+    position: absolute;
+    top:220px;
+    margin-left: 50%;
+    left: -120px; /*400px*0.6*0.5*/
+    width:60%;
+    height:60px;
+    background-color: rgba(79,92,99,0);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.8s;
+    z-index: 1;
+}
+.generate p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left:0;
+    margin: auto;
+    width: 100%;
+    height: 20px;
+    font-size:20px;
+    font-weight: bold;
+    color: rgba(79,92,99,1);
+    text-align: center;
+    transition: all 0.8s;
+    z-index: 2;
+}
+.generate:hover{
+    background-color: rgba(79,92,99,1);
+}
+.generate:hover p{
+    color: rgba(255, 255, 255, 1);
+}
+/*复制密码按钮*/
+.copy{
+    display: none;
+    position: absolute;
+    top:300px;
+    margin-left: 50%;
+    left: -120px; /*400px*0.6*0.5*/
+    width:60%;
+    height:60px;
+    background-color: rgba(79,92,99,0);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.8s;
+    z-index: 1;
+}
+.copy p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left:0;
+    margin: auto;
+    width: 100%;
+    height: 20px;
+    font-size:20px;
+    font-weight: bold;
+    color: rgba(79,92,99,1);
+    text-align: center;
+    transition: all 0.8s;
+    z-index: 2;
+}
+.copy:hover{
+    background-color: rgba(79,92,99,1);
+}
+.copy:hover p{
+    color: rgba(255, 255, 255, 1);
+}
+/*分割线*/
+.line{
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    height: 3px;
+    background-color: rgba(79,92,99,1);
+    transition: all 0.8s;
+}
+/*可选项*/
+.option{
+    position: absolute;
+    bottom: 84px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    height: 60px;
+    transition: all 0.8s;
+}
+.option div{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 5px;
+    background-color: rgba(79,92,99,0.3);
+    cursor: pointer;
+    transition: all 0.8s;
+    float: left;
+    z-index: 1;
+}
+.option div:first-child{
+    margin-left: 0;
+}
+.option div>span{
+    display: inline-block;
+    height:100%;
+    width: 100%;
+    border-radius: 50%;
+    font-size:16px;
+    font-weight: normal;
+    color: rgba(79,92,99,1);
+    text-align: center;
+    transition: all 0.8s;
+    word-wrap: break-word;
+    margin-top: 10px;
+    z-index: 2;
+}
+.option div:nth-child(1)>span{
+    margin-top: 20px;
+}
+.option div:nth-child(4)>span{
+    margin-top: 20px;
+}
+.option div:nth-child(5)>span{
+    margin-top: 20px;
+}
+.option div:hover{
+    background-color: rgba(79,92,99,1);
+}
+.option div:hover>span{
+    color: rgba(255, 255, 255, 1);
+}
