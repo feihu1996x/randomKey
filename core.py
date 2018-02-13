@@ -8,10 +8,15 @@ class RandomKey:
     生成符合要求的随机密码
     """
     def __init__(self, length=8, has_lowercase=True, has_capital=True, has_digit=True, has_symbol=True):
+        # 指定随机字符串的长度
         self.length = length
+        # 指定随机字符串中是否含有小写字母
         self.has_lowercase = self.convert_to_bool(has_lowercase)
+        # 指定随机字符串中是否含有大写字母
         self.has_capital = self.convert_to_bool(has_capital)
+        # 指定随机字符串是否含有数字
         self.has_digit = self.convert_to_bool(has_digit)
+        # 指定随机字符串中是否符号
         self.has_symbol = self.convert_to_bool(has_symbol)
 
         self.lowercase_pool = list("abcdefghijklmnopqrstuvwxyz")
@@ -79,4 +84,5 @@ class RandomKey:
             return False
 
 if __name__ == "__main__":
+    # 示例
     print(RandomKey(length=8, has_lowercase=True, has_capital=True, has_digit=True, has_symbol=True).generate())
