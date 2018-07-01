@@ -4,3 +4,7 @@
 
 	pip3 install Flask
 	python3 random_key.py
+	
+## 体验网址
+
+[randomKey](http://dev.feihu1996.cn/randomKey "randomKey")
