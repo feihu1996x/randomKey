@@ -1,4 +1,4 @@
-## 使用python flask框架+ajax打造的按需生成随机字符串的web应用
+## 使用Flask+Ajax打造的按需生成随机字符串的web应用
 
 ## 运行项目
 
