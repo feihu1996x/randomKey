@@ -4,8 +4,10 @@
 
 ## Build Setup
 
-	pip3 install Flask
-	python3 random_key.py
+```bash
+pip3 install Flask
+python3 random_key.py
+```
 	
 ## WebSite
 
