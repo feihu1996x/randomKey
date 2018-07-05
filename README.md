@@ -1,6 +1,19 @@
-## 使用Flask+Ajax打造的按需生成随机字符串的web应用
+# randomKey
 
-## 运行项目
+> A web app which can generate random key built with Flask + Ajax
 
-	pip3 install Flask
-	python3 random_key.py
+## Build Setup
+
+```bash
+
+# install the Flask
+pip3 install Flask
+
+# run the app
+python3 random_key.py
+
+```
+	
+## WebSite
+
+[randomKey](http://dev.feihu1996.cn/randomKey "randomKey")
