@@ -5,7 +5,7 @@ from core import RandomKey
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/randomKey')
 def index():
     return render_template("index.html")
 
