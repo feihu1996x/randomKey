@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" content="no-cache">
     <meta charset="UTF-8">
     <title>randomKey</title>
     <link rel="stylesheet" href="/static/css/index.css">
     <link rel="stylesheet" href="/static/css/animation.css">
+    <link rel="stylesheet" href="/static/css/lottery-forkme.css">
 </head>
-<body> {# 网页打开后用js立即添加animate属性 #}
-    <section class="main"> {# 网页打开后用js立即添加animate属性 #}
-        {# 密码显示区域 #}
-        <div class="display"></div> {# 点击密码生成按钮之后用js立即添加animate属性 #}
 
-        {# 密码生成按钮 #}
+<body> {# 网页打开后用js立即添加animate属性 #}
+    <section class="main"> {# 网页打开后用js立即添加animate属性 #} {# 密码显示区域 #}
+        <div class="display"></div> {# 点击密码生成按钮之后用js立即添加animate属性 #} {# 密码生成按钮 #}
         <div class="generate">
             <p>生成随机密码</p>
         </div>
@@ -20,12 +20,8 @@
         {# 复制密码按钮 #}
         <div class="copy" data-clipboard-target=".display">
             <p>复制随机密码</p>
-        </div> {# 点击密码生成按钮之后用js立即添加animates属性 #}
-
-        {# 分割线 #}
-        <div class="line"></div> {# 点击密码生成按钮之后用js立即添加animates属性 #}
-
-        {# 可选项 #}
+        </div> {# 点击密码生成按钮之后用js立即添加animates属性 #} {# 分割线 #}
+        <div class="line"></div> {# 点击密码生成按钮之后用js立即添加animates属性 #} {# 可选项 #}
         <div class="option">
             <div class="length" title="8">
                 <span>长度</span>
@@ -49,5 +45,11 @@
             new Clipboard('.copy');
         </script>
     </section>
+
+    <!-- Fork me on GitHub -->
+    <div class="forkme-container">
+        <a href="https://github.com/feihu1996x/randomKey" target="_blank">Fork me on GitHub</a>
+    </div>
 </body>
+
 </html>
