@@ -1,6 +1,6 @@
 # randomKey
 
-> A web app which can generate random key built with the Flask and the Ajax
+> A web app which can generate random key built with Flask + Ajax
 
 ## Build Setup
 
