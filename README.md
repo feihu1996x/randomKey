@@ -17,3 +17,7 @@ python3 random_key.py
 ## WebSite
 
 [randomKey](http://dev.feihu1996.cn/randomKey "randomKey")
+
+## TODO
+
+- add psasword managing feature
