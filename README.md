@@ -20,4 +20,5 @@ python3 random_key.py
 
 ## TODO
 
+- add user login and logout feature
 - add psasword managing feature
