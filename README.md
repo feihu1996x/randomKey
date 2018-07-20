@@ -7,7 +7,8 @@
 ```bash
 
 # install dependencies
-pip3 install Flask
+pip3 install Flask \
+     msgpack
 
 # run dev server at 0.0.0.0:8080
 python3 random_key.py
