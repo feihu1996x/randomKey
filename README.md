@@ -6,10 +6,10 @@
 
 ```bash
 
-# install the Flask
+# install dependencies
 pip3 install Flask
 
-# run the app
+# run dev server at 0.0.0.0:8080
 python3 random_key.py
 
 ```
@@ -22,3 +22,4 @@ python3 random_key.py
 
 - add user login and logout feature
 - add psasword managing feature
+- add generated password customization more deeply, such as specific character
