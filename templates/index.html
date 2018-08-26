@@ -4,10 +4,15 @@
 <head>
     <meta charset="utf-8" content="no-cache">
     <meta charset="UTF-8">
-    <title>randomKey</title>
-    <link rel="stylesheet" href="/static/css/index.css">
-    <link rel="stylesheet" href="/static/css/animation.css">
-    <link rel="icon" href="/static/image/favicon.ico">
+    <title>随机密码生成器</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animation.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='image/favicon.ico') }}">
+    <style type="text/css">
+        .display{
+            background-image: url("{{ url_for('static', filename='image/default_display.png') }}");
+        }
+    </style>
 </head>
 
 <body> {# 网页打开后用js立即添加animate属性 #}
@@ -39,12 +44,15 @@
                 <span>符号</span>
             </div>
         </div> {# 点击密码生成按钮之后用js立即添加animates属性 #}
-        <script type="text/javascript" src="/static/js/index.js"></script>
-        <script type="text/javascript" src="/static/js/clipboard.js-master/dist/clipboard.min.js"></script>
-        <script type="text/javascript">
-            new Clipboard('.copy');
-        </script>
+        
     </section>
+    
+    <script type="text/javascript" src="{{ url_for('static', filename='js/config.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/index.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/clipboard.js-master/dist/clipboard.min.js') }}"></script>
+    <script type="text/javascript">
+        new Clipboard('.copy');
+    </script>
 </body>
 
 </html>

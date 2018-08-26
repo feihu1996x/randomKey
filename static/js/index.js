@@ -100,7 +100,7 @@ function get_random_key(length, has_lowercase, has_capital, has_digit, has_symbo
         return 1;
     }
     // 构造请求的url
-    url = "/get_random_key?"+"length="+length.toString()+"&"+"has_lowercase="+has_lowercase.toString()+"&"+"has_capital="+has_capital.toString()+"&"+"has_digit="+has_digit.toString()+"&"+"has_symbol="+has_symbol.toString();
+    url = GET_RANDOM_KEY + "?"+"length="+length.toString()+"&"+"has_lowercase="+has_lowercase.toString()+"&"+"has_capital="+has_capital.toString()+"&"+"has_digit="+has_digit.toString()+"&"+"has_symbol="+has_symbol.toString();
     // 使用post方法打开与服务器的连接
     xml_http_request.open("GET", url, true);
     // 处理服务器响应

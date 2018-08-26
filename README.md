@@ -1,17 +1,29 @@
 # randomKey
 
-> A web app which can generate random key built with Flask + Ajax
+## 项目描述
+
+随机密码生成器
+
+## 技术栈
+
+HTML
+CSS
+JavaScript(原生Ajax)
+Python
+Flask
+Docker(端口映射)
+Supervisor(进程管理)
+Nginx(反向代理)
 
 ## Build Setup
 
 ```bash
 
-# install dependencies
-pip3 install Flask \
-     msgpack
+# 安装依赖
+pip3 install -r requirements.txt
 
-# run dev server at 0.0.0.0:8080
-python3 random_key.py
+# 启动Web App
+python begin.py
 
 ```
 
@@ -20,3 +32,4 @@ python3 random_key.py
 - add user login and logout feature
 - add psasword managing feature
 - add generated password customization more deeply, such as specific character
+
