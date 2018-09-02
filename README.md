@@ -10,8 +10,8 @@ HTML
 CSS
 JavaScript(原生Ajax)
 Python
-Flask
-Docker(端口映射)
+Flask(Web后端服务)
+Docker(容器端口映射)
 Supervisor(进程管理)
 Nginx(反向代理)
 
