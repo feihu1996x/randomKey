@@ -1,31 +1,28 @@
 # randomKey
 
-## 项目描述
+> 随机密码生成器
 
-随机密码生成器
+## Tech Stack
 
-## 技术栈
-
-HTML
-CSS
-JavaScript(原生Ajax)
-Python
-Flask(Web后端服务)
-Docker(容器端口映射)
-Supervisor(进程管理)
-Nginx(反向代理)
+- HTML/CSS/JavaScript
+- Python/Flask
+- Docker
+- Supervisor
+- Nginx
 
 ## Build Setup
 
 ```bash
-
 # 安装依赖
 pip3 install -r requirements.txt
 
 # 启动Web App
 python begin.py
-
 ```
+
+## Demo Link
+
+[http://dev.feihu1996.cn/randomKey/](http://dev.feihu1996.cn/randomKey/ "randomKey")
 
 ## TODO
 
