@@ -10,7 +10,7 @@
 
 # 开发服务器配置
 WEB_HOST="0.0.0.0"
-WEB_PORT=8080
+WEB_PORT=8082
 
 # url前缀
 URL_PREFIX=""
